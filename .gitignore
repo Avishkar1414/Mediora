@@ -1,0 +1,82 @@
+# === Claude Code (contains API keys) ===
+.claude/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Next.js ===
+.next/
+out/
+build/
+.nuxt/
+
+# === Data & Environment ===
+.data/
+.env
+.env.local
+.env.*.local
+*.env
+
+# === Logs ===
+*.log
+*.stdout.log
+*.stderr.log
+
+# === Model files (large binaries) ===
+model/*.h5
+model/*.pt
+model/*.pth
+model/*.ckpt
+model/*.weights
+model/*.bin
+
+# === Uploads ===
+uploads/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Test fixtures ===
+test_fixtures/
+
+# === Documentation artifacts ===
+future updates.txt
+resnet-load-error.log
+tensorflow-install*.stdout.log
+tensorflow-install.stderr.log
+fastapi*.stdout.log
+fastapi.stderr.log
+fastapi-2.stdout.log
+fastapi-3.stdout.log
+next-dev.stderr.log
+next-dev.stdout.log
+next-server.log
+next-server-error.log
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# === Package files at root ===
+package-lock.json

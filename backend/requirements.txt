@@ -1,0 +1,16 @@
+# Core API
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+python-multipart>=0.0.9,<1.0
+
+# Chest X-ray route (PyTorch + TorchXRayVision)
+torch>=2.2
+torchvision>=0.17
+torchxrayvision>=1.3,<2.0
+scikit-image>=0.22
+Pillow>=10.0
+
+# Skin-lesion route (TensorFlow/Keras) — OPTIONAL.
+# Without it, the chest route still works and /predict?scan_type=skin returns 503.
+# To enable the skin route: `pip install tensorflow` (large download, ~400 MB).
+# tensorflow>=2.16,<2.20
