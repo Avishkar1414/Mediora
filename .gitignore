@@ -82,3 +82,5 @@ tsconfig.tsbuildinfo
 
 # === Package files at root ===
 package-lock.json
+backend/model/resnet50_best.h5
+backend/model/resnet50_best.h5
