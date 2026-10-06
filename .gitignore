@@ -44,6 +44,8 @@ model/*.pth
 model/*.ckpt
 model/*.weights
 model/*.bin
+model/*.pb
+model/*.pbtxt
 
 # === Uploads ===
 uploads/
